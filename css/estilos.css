@@ -65,6 +65,27 @@ h1 {
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
 }
 
-.tecla_title, .tecla_2, .tecla_3{
-  display: block;
+.tecla_title, .tecla_2, .tecla_3 {
+    display: block;
+
+    padding: 0;
+    margin: 0;
+
+    font-size: 1.6em;
+    text-align: center;
+}
+
+.tecla_title {
+    font-weight: bold;
+    color: var(--vermelha-mais-escura)
+}
+
+.tecla_2 {
+    font-size: 11
+      100%;
+}
+
+.tecla_3 {
+    font-size: 11
+      100%;
 }
