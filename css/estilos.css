@@ -1,16 +1,18 @@
 :root {
-  --cinza: #182cb5cb9307;
-  --vermelha: #1f56bbd9;
-  --vermelha-escura: #461d4b;
-  --branca: #fff;
-  --luz: rgb(25 42 243 / 80%);
+  --cinza: #ff6767cb9307;
+  --vermelha: #ffffff00;
+  --vermelha-escura: #ffffff00;
+  --vermelha-mais-escura: rgb(0 0 0);
+  --2: rgb(20 20 20);
+  --branca: #000;
+  --luz: rgb(255 255 255);
 }
 
 
 body { 
   align-items: center;
   background-image: url(https://www.pixelstalk.net/wp-content/uploads/images6/Meme-Wallpaper-HD-Free-download.jpg);
-  background-size: 2000px 1080px;
+  background-size: 2000px 1100px;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
@@ -26,8 +28,8 @@ h1 {
 }
 
 .teclado {
-  background: linear-gradient(to bottom, #778e2d5c 0%,#9fa12747 100%);
-  box-shadow: 6px 6px 0 6px #12547957, 20px 20px 5px #000;
+  background: linear-gradient(to bottom, #ffffff29 0%,#51611aa6 100%);
+  box-shadow: 6px 6px 0 px #f8f8f857, 20px 20px 5px #fff;
   border-radius: 20px;
   display: grid;
   gap: 20px;
@@ -36,7 +38,7 @@ h1 {
 }
 
 .tecla {
-  background-color: #ffffffd1;
+  background-color: #ffffff;
   border-radius: 30px;
   box-shadow: 3px 3px 0 var(--cinza);
   color: var(--vermelha);
@@ -84,10 +86,12 @@ h1 {
     font-weight: bold;
     font-size: 11
       100%;
+     color: var(--vermelha-mais-escura)
 }
 
 .tecla_3 {
     font-weight: bold;
     font-size: 11
       100%;
+    color: var(--vermelha-mais-escura)
 }
