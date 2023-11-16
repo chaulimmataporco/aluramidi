@@ -22,8 +22,9 @@ body {
 }
 
 h1 {
-  color:  #000;
-  margin-bottom: 50px;
+  color:  #da0f0f;
+  margin-bottom: 10px;
+  font-weight: bold;
   font-size: 3rem;
 }
 
